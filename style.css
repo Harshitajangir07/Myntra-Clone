@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Jua&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap");
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  top: 0;
+  height: 66px;
+}
+
+.left img {
+  /* width: 36px;
+  height: 23px; */
+  margin-left: -78px;
+  width: 66px;
+  height: 36px;
+}
+.container {
+  max-width: 80vw;
+  margin: auto;
+}
+nav {
+  font-size: 13px;
+  padding-top: 24px;
+  color: #4a4a4a;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 12px;
+}
+
+input[type="text"] {
+  width: 30vw;
+  padding: 7px 17px;
+  border: none;
+  background: #f7f8f9;
+  border-radius: 5px;
+}
+input:focus {
+  border: none;
+}
+
+.mag-glass {
+  height: 14px;
+  width: 14px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.carousel-inner {
+  margin-top: 54px;
+}
+
+.deal {
+  font-weight: 700;
+  color: #4a4a4a;
+  margin-left: 32px;
+  line-height: 4.2;
+  font-size: 28px;
+}
+
+.deal-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.brand-img {
+  margin-left: 16px;
+}
+
+img {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+.deal-img img {
+  height: 290px;
+  width: 210px;
+}
+
+.brand-img img {
+  height: 290px;
+  width: 210px;
+}
+
+.bag-img img {
+  height: 250px;
+  width: 210px;
+}
+
+.gift-img img {
+  margin-left: 6px;
+  height: 290px;
+  width: 370px;
+}
+
+.beauty-img img {
+  height: 256px;
+  width: 379px;
+}
+
+.beauty-img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.banner {
+  position: fixed;
+  right: 0px;
+  top: 220px;
+  height: 300px;
+}
+
+.carousel {
+  position: relative;
+  z-index: -1;
+}
+
+.new-img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.new-img img {
+  height: 256px;
+  width: 379px;
+}
+
+.trend-img img {
+  height: 290px;
+  width: 210px;
+}
+
+.promotion {
+  height: 40px;
+  width: 120px;
+  display: flex;
+}
+
+.follow {
+  height: 25px;
+  width: 25px;
+  display: flex;
+}
+
+.original img {
+  height: 40px;
+  width: 50px;
+  margin-left: -29px;
+}
+
+.original {
+  display: flex;
+}
+
+.returns img {
+  height: 40px;
+  width: 40px;
+}
+
+.returns {
+  display: flex;
+  margin-left: -35px;
+}
+
+.return-p {
+  margin-right: 35px;
+}
+
+.footer {
+  display: flex;
+  font-size: 14px;
+  color: #4a4a4a;
+  margin-top: 100px;
+}
+
+.first {
+  margin-left: 220px;
+}
+
+.second {
+  margin-left: 60px;
+}
+
+.third {
+  margin-left: 60px;
+}
+
+.fourth {
+  margin-left: 80px;
+}
+
+.first p {
+  margin-top: -13px;
+}
+
+.first-child {
+  margin-top: 34px;
+}
+
+.second p {
+  margin-top: -13px;
+}
+
+.astore {
+  margin-left: 10px;
+}
+
+.touch {
+  margin-top: 16px;
+}
+
+.twitter {
+  margin-left: 12px;
+}
+.youtube {
+  margin-left: 12px;
+}
+.instagram {
+  margin-left: 12px;
+}
+.pop {
+  color: #4a4a4a;
+  width: 1000px;
+  margin-left: 220px;
+}
+
+.popular {
+  margin-top: 12px;
+}
+
+.items {
+  font-size: 14px;
+}
+
+.contact {
+  color: rgb(82, 108, 208);
+}
+
+.concern {
+  color: #4a4a4a;
+  margin-left: 220px;
+}
+
+.final {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright {
+  color: #4a4a4a;
+  margin-right: 304px;
+}
